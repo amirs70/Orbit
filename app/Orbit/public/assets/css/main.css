@@ -1,0 +1,77 @@
+.sidebar-wrapper {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.sidebar-menu .nav-link {
+    border-radius: 0;
+}
+
+.sidebar-wrapper .sidebar-menu > .nav-item > .nav-link.active {
+    background-color: #ff5353 !important;
+}
+
+.sidebar-wrapper {
+    overflow-y: scroll;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu .nav-link {
+    width: unset;
+}
+
+.sidebar-mini.sidebar-collapse .app-sidebar {
+    min-width: 4.6rem !important;
+    max-width: 4.6rem !important;
+}
+
+.sidebar-mini.sidebar-collapse .app-sidebar:hover .brand-text,
+.sidebar-mini.sidebar-collapse .app-sidebar:hover .logo-xl,
+.sidebar-mini.sidebar-collapse .app-sidebar:hover .sidebar-menu .nav-link p {
+    visibility: hidden;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu .nav-header {
+    display: inline-block !important;
+    padding: 5px;
+    transform: rotate(-15deg);
+    transform-origin: left center;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu .nav-header small {
+    font-size: 11px;
+}
+
+.sidebar-mini.sidebar-collapse .brand-text {
+    display: none !important;
+}
+
+.rounded-circle img {
+    border-radius: 100%;
+}
+
+a.dropdown-item:active {
+    background: inherit;
+    color: inherit;
+}
+
+.sortable-placeholder {
+    min-height: 200px;
+    margin: 10px;
+    border: 2px dashed #ccc;
+}
+
+#top-widget:empty, #start-widget:empty, #end-widget:empty {
+    /*min-height: 100px;*/
+}
+
+#top-widget > .card, #start-widget > .card, #end-widget > .card {
+    margin-bottom: 10px;
+}
+
+#top-widget .sort-handler, #start-widget .sort-handler, #end-widget .sort-handler {
+    cursor: move;
+}
+
+#top-widget .remove, #start-widget .remove, #end-widget .remove {
+    cursor: pointer;
+}
