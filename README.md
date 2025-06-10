@@ -11,7 +11,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
- <pre> greet($name) { return "Hi, $name!"; } </pre> 
+ <pre> function greet($name) { return "Hi, $name!"; } </pre> 
 
 ## About Laravel
 
